@@ -165,4 +165,14 @@ img{
     text-indent: 1.5rem;
 }
 
+                  /* gallery */
 
+#gallery img{
+    opacity: 0.7;
+    transition: opacity 0.8s;
+}
+
+#gallery img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
