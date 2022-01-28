@@ -232,3 +232,27 @@ img{
 .footer a:hover{
     opacity: 0.7;
 }
+
+
+/* mobile */
+
+@media(max-width: 768px){
+    html {
+        font-size: 8px;
+    }
+
+    .main-header .navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 10rem;
+    }
+
+    .main-header .navbar a {
+        padding: 1rem;
+    }
+
+    .teams img{
+        width: 65%;
+    }
+
+}

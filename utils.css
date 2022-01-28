@@ -199,3 +199,27 @@
     font-weight: 700;
 }
 
+/* mobile */
+
+@media(max-width: 768px){
+    .flex-items{
+        flex-direction: column;
+    }
+
+    .flex-items > div {
+        padding: 1rem;
+    }
+
+    .flex-columns .column {
+        flex: 100%;
+    }
+
+    .flix-grid .row .column{
+        flex: 50%;
+        padding: 0 .2rem;
+    
+    }
+
+
+
+}
