@@ -187,3 +187,15 @@
     padding: 2rem 2rem 4rem;
 }
 
+/* rooms */
+
+.card-body {
+    padding: 2rem;
+    margin-top: -10px;
+}
+
+.card {
+    color: #fff;
+    font-weight: 700;
+}
+

@@ -176,3 +176,39 @@ img{
     cursor: pointer;
     opacity: 1;
 }
+
+                  /* team members */
+.teams img {
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.8s;
+}
+
+.teams img:hover {
+    opacity: 1;
+}
+
+                  /* contact */
+.contact-form {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.contact-form .form-control{
+    margin-bottom: 1.5rem;
+}
+.contact-form label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 0.5rem;
+    height: 4rem;
+    border: 1px solid #ccc;
+}
+
+.contact h2 {
+    font-size: 4rem;
+}
