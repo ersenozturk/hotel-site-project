@@ -212,3 +212,23 @@ img{
 .contact h2 {
     font-size: 4rem;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+}
+
+.footer a{
+    color:var(--danger);
+    margin-right: 1rem;
+}
+
+.footer a:hover{
+    opacity: 0.7;
+}
